@@ -1,0 +1,153 @@
+@font-face {
+    font-family: crashALike;
+    src: url('../font/crash-a-like.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: crashALike, sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-image: url('../img/crash1.1.jpg');
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo {
+    width: 50%;
+}
+
+#buyButton {
+    display: flex;
+    background-color: orange;
+    width: 15%;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 40px;
+}
+
+a {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+/* MAIN */
+
+#folieCrash{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#textContainer{
+    text-align: center;
+    font-size: 20px;
+    width: 40%;
+}
+
+#textContainer h2{
+    color: orangered;
+    margin-bottom: 40px;
+}
+
+.persoCrash{
+    width: 20%;
+}
+
+#jeuxFantastiques{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(72, 130, 255);
+    font-size: 50px;
+    color: yellow;
+    text-shadow: 5px;
+    align-items: center;
+
+}
+
+#jeuxFantastiques p:nth-of-type(1){
+    align-items: center;
+    transform: rotate(-20deg);
+}
+#jeuxFantastiques p:nth-of-type(2){
+    align-items: center;
+    transform: rotate(20deg);
+}
+
+#screenshotContainer{
+    text-align: center;
+    color: orange;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+#screenshotContainer h2 {
+    margin-bottom: 40px;
+}
+
+#screenshotFlex{
+    display: flex;
+    justify-content: center;
+}
+#screenshot{
+    width: 60%;
+
+}
+
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    margin-top: 40px;
+    background-color: orange;
+    height: 20vh;
+    align-items: center;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+
+a{
+    text-decoration: none;
+}
+
+#masqueImage{
+    width: 5%;
+
+}
+
+#logoFooter{
+    width: 10%;
+
+}
